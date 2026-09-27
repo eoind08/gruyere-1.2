@@ -1,0 +1,29 @@
+model: hf
+
+model_args:
+  pretrained: Erbium08/Gruyere-1.2
+  dtype: bfloat16
+  trust_remote_code: true
+  max_length: 1024
+
+tasks:
+  - hellaswag
+  - arc_easy
+  - arc_challenge
+  - piqa
+  - winogrande
+  - openbookqa
+  - lambada_openai
+  - boolq
+  - copa
+  - sciq
+  - wsc273
+  - wikitext
+  - truthfulqa_mc2
+
+device: cuda:0
+batch_size: 8
+num_fewshot: 0
+
+output_path: ./eval/results/FULL
+log_samples: true
