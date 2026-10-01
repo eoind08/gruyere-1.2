@@ -3,6 +3,7 @@
 Gruyère-1.2 is an 89M-parameter autoregressive language model developed by GoudaAI. It is the third stage in the Gruyère model lineage, following pretraining on FineWeb-Edu, continued pretraining on NCERT educational material, and instruction fine-tuning on UltraChat-200k.
 
 The model is just some fun research into designing and optimising LM's for consumer GPU's when compute scaling isnt avaliable
+https://huggingface.co/Erbium08/Gruyere-1.2
 ## Model Details
 
 ### Model Description
